@@ -4,10 +4,16 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "as": "studio ./android",
+    "compile": "tsc -p tsconfig.json --pretty",
     "ios": "react-native run-ios",
+    "setup": "yarn install && cd ios && pod install && cd ..",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lc": "yarn lint --fix && yarn compile",
+    "nuke": "rm -rf node_modules android/.gradle android/.idea android/app/build android/*.iml android/**/*.iml android/local.properties ios/Pods ~/Library/Developer/Xcode/DerivedData/HelloWorld-*",
+    "xc": "open ios/HelloWorld.xcworkspace"
   },
   "dependencies": {
     "react": "16.13.1",
@@ -23,6 +29,8 @@
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
     "babel-jest": "^25.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "eslint": "^6.5.1",
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
