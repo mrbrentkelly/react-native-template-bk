@@ -1,6 +1,6 @@
-# :space_invader: React Native Template TypeScript and more!
+# :space_invader: TypeScript Template for RN, and more!
 
-🍴Forked from https://github.com/react-native-community/react-native-template-typescript with added benefits:
+🍴Forked from [react-native-template-typescript](https://github.com/react-native-community/react-native-template-typescript) with added benefits:
 
 **TypeScript + ESLint + Prettier + VSCode + Import aliases + Helpful yarn scripts**
 
