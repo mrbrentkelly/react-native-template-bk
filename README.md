@@ -1,4 +1,4 @@
-# :space_invader: TypeScript Template for RN, and more!
+# :space_invader: Enhanced TypeScript Template for RN!
 
 🍴Forked from [react-native-template-typescript](https://github.com/react-native-community/react-native-template-typescript) with added benefits:
 
