@@ -36,7 +36,8 @@
     "metro-react-native-babel-preset": "^0.59.0",
     "react-test-renderer": "16.13.1",
     "prettier": "^2.0.4",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "vscode-project-react-native": "https://github.com/mrbrentkelly/vscode-project-react-native"
   },
   "jest": {
     "preset": "react-native",
