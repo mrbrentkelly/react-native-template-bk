@@ -15,6 +15,7 @@ module.exports = {
     }],
 
     // ESLint
+    'comma-dangle': 0, // Conflicts with prettier
     'no-undef': 0, // Conflicts with TS
 
     // TS
