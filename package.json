@@ -1,5 +1,5 @@
 {
-  "name": "rn-template-bk",
+  "name": "react-native-template-bk",
   "version": "0.0.1",
   "description": "Opinionated RN template with TypeScript + ESLint + Prettier + VSCode + Import Aliases + Useful yarn scripts.",
   "files": [

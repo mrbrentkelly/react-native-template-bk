@@ -5,7 +5,7 @@
 **TypeScript + ESLint + Prettier + VSCode + Import aliases + Helpful yarn scripts**
 
 ```bash
-npx react-native init YourProject --template https://github.com/mrbrentkelly/rn-template-bk --skip-install
+npx react-native init YourProject --template https://github.com/mrbrentkelly/react-native-template-bk --skip-install
 ```
 
 ## :bookmark: License
