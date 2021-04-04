@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
 var fs = require('fs');
-var projectName = require('./app.json').name;
+
+const pieces = process.cwd().split('/');
+const projectName = pieces[pieces.length - 1];
 
 fs.readFile('./package.json', 'utf8', function (err, data) {
   if (err) {
