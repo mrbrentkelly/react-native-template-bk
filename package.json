@@ -6,12 +6,19 @@
     "template",
     "template.config.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrbrentkelly/react-native-template-bk.git"
+  },
   "keywords": [
     "react-native",
     "typescript",
-    "jest",
     "template",
     "boilerplate"
   ],
-  "license": "MIT"
+  "author": "Brent Kelly",
+  "bugs": {
+    "url": "https://github.com/mrbrentkelly/react-native-template-bk/issues"
+  },
+  "homepage": "https://github.com/mrbrentkelly/react-native-template-bk#readme"
 }
