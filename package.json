@@ -4,7 +4,8 @@
   "description": "Opinionated RN template with TypeScript + ESLint + Prettier + VSCode + Import Aliases + Useful yarn scripts.",
   "files": [
     "template",
-    "template.config.js"
+    "template.config.js",
+    "postInitScript.js"
   ],
   "repository": {
     "type": "git",
