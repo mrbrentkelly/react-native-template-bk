@@ -12,8 +12,8 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lc": "yarn lint --fix && yarn compile",
-    "nuke": "rm -rf node_modules android/.gradle android/.idea android/app/build android/*.iml android/**/*.iml android/local.properties ios/Pods ~/Library/Developer/Xcode/DerivedData/HelloWorld-*",
-    "xc": "open ios/HelloWorld.xcworkspace"
+    "nuke": "rm -rf node_modules android/.gradle android/.idea android/app/build android/*.iml android/**/*.iml android/local.properties ios/Pods ~/Library/Developer/Xcode/DerivedData/ReplaceMe-*",
+    "xc": "open ios/ReplaceMe.xcworkspace"
   },
   "dependencies": {
     "react": "17.0.1",
