@@ -1,33 +1,27 @@
 module.exports = {
   root: true,
-  extends: '@react-native-community',
+  extends: ['@react-native-community', 'plugin:@typescript-eslint/recommended'],
   rules: {
     // Prettier
-    'prettier/prettier': [1, {
-      "singleQuote": true,
-      "trailingComma": "es5",
-      "jsxBracketSameLine": true,
-      "parser": "typescript",
-      "tabWidth": 2,
-      "printWidth": 100
-    }],
+    'prettier/prettier': 1,
 
     // ESLint
     'comma-dangle': 0, // Conflicts with prettier
     'no-undef': 0, // Conflicts with TS
 
     // TS
+    '@typescript-eslint/ban-ts-comment': 1,
+    '@typescript-eslint/no-inferrable-types': 1,
     '@typescript-eslint/explicit-member-accessibility': 1,
-    '@typescript-eslint/explicit-function-return-type': [1, {
-      allowExpressions: true,
-      allowTypedFunctionExpressions: false,
-      allowHigherOrderFunctions: false,
-    }],
-    '@typescript-eslint/no-use-before-define': [2, {
-      "functions": false,
-    }],
+    '@typescript-eslint/explicit-function-return-type': [
+      1,
+      {
+        allowExpressions: true,
+      },
+    ],
 
     // React
+    'react/function-component-definition': 1,
     'react/jsx-boolean-value': [2, 'always'],
-  }
+  },
 };
